@@ -1,0 +1,126 @@
+git add:
+git add sample.md  
+
+git add .:
+git add .
+
+git am: 
+git am < patchfile.patch
+
+git branch: 
+git branch <new-branch>
+
+git checkout: 
+git checkout <existing-branch>
+
+git checkout main: 
+git checkout main
+
+git clone:
+git clone <repository-url>
+
+git commit:
+git commit -m :"Your commit message here"
+
+git config --global user.email:
+Example 1:
+git config --global user.email "your.email@example.com"
+
+Example 2:
+git config --global user.name "Your Name"
+
+git daemon:
+git daemon --reuseaddr --verbose
+
+git diff:
+git diff example.txt
+
+git fetch:
+git fetch <options> <remote name> <branch name>
+
+git fetch upstream/master:
+git fetch upstream master:upstream-master
+
+git format-patch:
+git format-patch -n <number_of_commits>
+
+git http-backend:
+git clone --bare /path/to/repos/myrepo.git
+cd myrepo.git
+git update-server-info
+
+git init:
+git init <directory>
+
+git instaweb:
+git instaweb -p 8080
+
+git log:
+git log -p filename
+
+git merge:
+git merge feature_branch
+
+git merge upstream/master:
+git merge upstream/master
+
+git pull:
+git pull origin main
+
+git pull downstream:
+git pull downstream main
+
+git pull upstream:
+git pull upstream main
+
+git push:
+git push origin your_branch_name
+
+git remote:
+git remote add upstream https://github.com/original/repo.git
+
+git remote add origin <URL>:
+git remote add origin https://github.com/yourusername/your-repo.git
+
+git remote add upstream:
+git remote add upstream https://github.com/original/repo.git
+
+git remote rename:
+git remote rename origin new-origin
+
+git remote -v:
+git remote -v
+
+git request-pull:
+Example 1:
+git request-pull origin/main your-branch
+Example 2:
+git request-pull <base> <head> <repository>
+
+git rerere:
+git rerere
+git rerere diff
+
+git reset:
+git reset HEAD~1
+
+git revert:
+git revert HEAD
+
+git send-email:
+Example 1:
+git send-email --to=recipient@example.com
+path/to/patchfile.patch
+
+Example 2:
+git send-email --to recipient@example.com
+patches/*.patch
+
+git-shell:
+sudo usermod -s /usr/bin/git-shell gituser
+
+git status:
+git status
+
+git version:
+git --version
